@@ -64,7 +64,7 @@ qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook \
 suspicious-package qlvideo dropbox slack openaudible \
 audacity loopback iterm2 fluent-reader rightfont fig aerial \
 affinity-photo affinity-designer daisydisk fanny figma fontplop \
-iina insomnia
+iina insomnia nova
 
 # ssh keygen
 echo "Generating a new SSH key for GitHub"
