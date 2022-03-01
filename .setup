@@ -57,7 +57,7 @@ semantic-release-cli npm-check-updates netlify-cli \
 @sanity/cli vercel
 
 echo "installing apps with brew --cask"
-brew install --cask raycast google-chrome firefox brave-browser bettertouchtool divvy \
+brew install --cask raycast firefox brave-browser bettertouchtool divvy \
 vanilla cron visual-studio-code dash muzzle \
 handbrake zoom the-unarchiver avibrazil-rdm \
 qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook \
