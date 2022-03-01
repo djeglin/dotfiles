@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Run without downloading:
 # curl https://raw.githubusercontent.com/djeglin/dotfiles/HEAD/.setup | bash
