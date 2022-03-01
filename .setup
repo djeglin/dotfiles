@@ -67,13 +67,13 @@ affinity-photo affinity-designer daisydisk fanny figma fontplop \
 iina insomnia nova
 
 # ssh keygen
-echo "Generating a new SSH key for GitHub"
-ssh-keygen -t ed25519 -C "me+github@kentcdodds.com" -f ~/.ssh/id_ed25519
-eval "$(ssh-agent -s)"
-touch ~/.ssh/config
-echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_ed25519" | tee ~/.ssh/config
-ssh-add -K ~/.ssh/id_ed25519
-echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
+# echo "Generating a new SSH key for GitHub"
+# ssh-keygen -t ed25519 -C "me+github@kentcdodds.com" -f ~/.ssh/id_ed25519
+# eval "$(ssh-agent -s)"
+# touch ~/.ssh/config
+# echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_ed25519" | tee ~/.ssh/config
+# ssh-add -K ~/.ssh/id_ed25519
+# echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
 
 # install zprezto
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
